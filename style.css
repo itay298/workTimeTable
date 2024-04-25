@@ -1,5 +1,6 @@
 * {
     direction: rtl;
+    overflow-x: hidden;
 }
 
 header {
@@ -31,13 +32,10 @@ header {
     color: hsl(216, 98%, 60%);
 }
 
-.table {
-    max-width: 33%;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 @media only screen and (max-width:1000px) {
+    body {
+        font-size: 0.8rem;
+    }
     header {
         direction: ltr;
     }
@@ -59,5 +57,10 @@ header {
     }
     #title {
         margin: 0 10px
+    }
+    table.table {
+        max-width: 10%;
+        margin: 0 auto;
+        padding: 0 15px;
     }
 }
