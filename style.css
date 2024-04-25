@@ -48,4 +48,7 @@ header {
         gap: 3px;
         text-align: center;
     }
+    #title {
+        margin: 0 5px
+    }
 }
