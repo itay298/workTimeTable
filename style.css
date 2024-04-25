@@ -31,6 +31,12 @@ header {
     color: hsl(216, 98%, 60%);
 }
 
+.table {
+    max-width: 33%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 @media only screen and (max-width:1000px) {
     header {
         direction: ltr;
