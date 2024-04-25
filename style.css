@@ -30,3 +30,22 @@ header {
 #title:hover span#end-title{
     color: hsl(216, 98%, 60%);
 }
+
+@media only screen and (max-width:1000px) {
+    .respon {
+        flex-direction: column;
+    }
+    .sign {
+        display: flex;
+        flex-direction: column;
+        width: 125px;
+        gap: 3px;
+    }
+    ul.nav {
+        display: flex;
+        flex-direction: column;
+        width: 120px;
+        gap: 3px;
+        text-align: center;
+    }
+}
